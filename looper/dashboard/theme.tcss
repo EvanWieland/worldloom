@@ -1,0 +1,14 @@
+Screen { background: #0b0f17; }
+.panel { border: round #334155; border-title-color: #a78bfa; border-title-style: bold; padding: 0 1; background: #0f1623; }
+#now { border: round #2dd4bf; border-title-color: #2dd4bf; height: 10; }
+#side { width: 44; }
+#preview { border: round #a78bfa; height: 17; }
+#img { height: 13; }
+#models { border: round #f472b6; border-title-color: #f472b6; height: 11; }
+#hardware { border: round #38bdf8; border-title-color: #38bdf8; height: 18; }
+#hw_big BrailleGraph { height: 9; }
+#tokens { border: round #fbbf24; border-title-color: #fbbf24; height: 9; }
+#history { border: round #f59e0b; border-title-color: #f59e0b; }
+#status { dock: top; height: 1; background: #111827; color: #e5e7eb; padding: 0 1; }
+#warnings { color: #fbbf24; height: auto; padding: 0 1; }
+DataTable { background: #0f1623; }

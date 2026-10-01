@@ -1,0 +1,32 @@
+runs/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.blend1
+telemetry/
+.superpowers/
+
+# experiment renders / latents / logs: evidence lives in research/, the media stays local
+experiments/**/*.mp4
+experiments/**/*.npy
+experiments/**/*.pt
+experiments/**/*.jpg
+experiments/**/*.png
+experiments/**/*.log
+!experiments/user_image/*.png
+
+# finished renders, collected as hard links by experiments/renders/collect.py
+/renders/
+
+# local credentials never belong in git (public-release privacy review, 2026-10-01)
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials.json
+# experiment console captures (logs stay local)
+experiments/**/*.out
