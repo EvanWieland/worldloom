@@ -142,7 +142,7 @@ The thresholds and how they were calibrated against human verdicts are in [QUALI
   [common-room.md](research/common-room.md) (an interior with fire and moonlight).
 
 The notes, decision records and some code comments mention lab scripts under `experiments/` and internal working
-files (`CLAUDE.md`, `PLAN.md`, `STATE.md`, `docs/`); those are not part of this repository.
+files (`PLAN.md`, `STATE.md`, `docs/`); those are not part of this repository.
 
 ## Limits
 
