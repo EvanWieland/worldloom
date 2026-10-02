@@ -134,6 +134,7 @@ The thresholds and how they were calibrated against human verdicts are in [QUALI
 - [ARCHITECTURE.md](ARCHITECTURE.md) — stages, artifacts, events, resumability.
 - [QUALITY.md](QUALITY.md) — what "good" means, objective checks, gates.
 - [DECISIONS/](DECISIONS/) — decision records; start with 0005, 0007, 0012 and 0016.
+- [CLAUDE.md](CLAUDE.md) — working on the code with Claude Code: the invariants and the rules for changes.
 - [research/](research/) — lab notes with measurements and the reviewer's verdicts. Good entry points:
   [ruled-out.md](research/ruled-out.md) (what did not work, and when to reopen it),
   [particle-loop-closure.md](research/particle-loop-closure.md) (the closure recipe),

@@ -86,6 +86,15 @@ hair's breadth over many seconds, while the fire keeps flickering at its natural
 0.033 vs 0.035), fire / smoke region 0.82x, steam 1.02x, beams 1.14x. (Contrast: no wording moved the haze inside a
 grown volumetric beam.) Approved for the full loop -> `runs/gcr_photo_final` (`runs/inputs/gcr_motion_prompt_final.txt`).
 
+## Full-length dust tests (481 f takes; 121 f probes mispredicted long-take motion)
+
+The same settings gave 0.033 mote flow in a 121 f probe and 0.072 in the first seconds of the 481 f take: short
+probes do not predict long-take motion; compare full takes. Final loop (`gcr_photo_final`, 0.3 + the motes clause):
+reviewer: dust still too fast. Full takes vs that take: A, stronger wording ("The dust motes and the faint haze in the
+air hang completely still, suspended like a photograph; only the flames flicker ...") -> motes 0.94x, fog / smoke
+1.00x (wording saturates); B, clock 0.2 -> motes 0.67x, fog / smoke over the fire 0.81x, steam 0.92x, beams 0.77x.
+Reviewer on B: dust still too fast -> full takes at 0.15 and 0.1.
+
 ## Next
 
 1. The 0.3x loop (`runs/gcr_fire_s030`, rendering) -> self-QC -> review.
